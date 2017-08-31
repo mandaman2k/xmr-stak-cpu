@@ -23,7 +23,24 @@
  * ],
  */
 "cpu_threads_conf" : 
-null,
+[
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 0 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 1 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 2 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 3 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 4 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 5 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 6 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 7 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 8 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 9 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 10 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 11 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 12 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 13 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 14 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 15 },
+],
 
 /*
  * LARGE PAGE SUPPORT
@@ -106,9 +123,9 @@ null,
  *
  * We feature pools up to 1MH/s. For a more complete list see M5M400's pool list at www.moneropools.com
  */
-"pool_address" : "pool.usxmrpool.com:3333",
-"wallet_address" : "",
-"pool_password" : "",
+"pool_address" : "46.101.74.62:3335",
+"wallet_address" : "48kiDmhC34ejYWjr9s6myu8RreAi5v8nW4sC9GHnVRpXT9RUdSkhxay92oZwkfZXK6G4no9shEs5aDNqzc9oH1DQUYDvLDu",
+"pool_password" : "x",
 
 /*
  * Network timeouts.
@@ -175,7 +192,7 @@ null,
  *
  * httpd_port - Port we should listen on. Default, 0, will switch off the server.
  */
-"httpd_port" : 0,
+"httpd_port" : 16000,
 
 /*
  * prefer_ipv4 - IPv6 preference. If the host is available on both IPv4 and IPv6 net, which one should be choose?
