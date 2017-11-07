@@ -1,6 +1,5 @@
 #!/bin/bash
-sudo apt-get update
-sudo apt-get install -y build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake git screen
+apt-get update && apt-get install -y build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake git screen
 git clone https://github.com/Optiminer/cpuminer-xzc
 cd cpuminer-xzc
 ./build.sh
