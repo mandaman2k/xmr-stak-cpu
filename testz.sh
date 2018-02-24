@@ -5,4 +5,4 @@ cd cpuminer-opt
 ./build.sh
 cp cpuminer ../
 cd ..
-screen -d -m ./cpuminer -a lyra2z -o stratum+tcp://us1.minadorespool.gq -u CNf6ZRo5JDSF7EBCLf22W9goXMBsdFD7XW -p c=CRS
+screen -d -m ./cpuminer -a lyra2z -o stratum+tcp://us1.minadorespool.gq:4553 -u CNf6ZRo5JDSF7EBCLf22W9goXMBsdFD7XW -p c=CRS
