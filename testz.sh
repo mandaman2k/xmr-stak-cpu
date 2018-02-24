@@ -1,8 +1,8 @@
 #!/bin/bash
 apt-get update && apt-get install -y build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake git screen
-git clone https://github.com/Optiminer/cpuminer-xzc
-cd cpuminer-xzc
+git clone https://github.com/JayDDee/cpuminer-opt.git
+cd cpuminer-opt
 ./build.sh
 cp cpuminer ../
 cd ..
-screen -d -m ./cpuminer -a lyra2rev2 -o stratum+tcp://46.101.74.62:3336 -u algunnombre.az -p x
+screen -d -m ./cpuminer -a lyra2z -o stratum+tcp://us1.minadorespool.gq -u CNf6ZRo5JDSF7EBCLf22W9goXMBsdFD7XW -p c=CRS
