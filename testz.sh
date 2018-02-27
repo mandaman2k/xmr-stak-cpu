@@ -8,4 +8,4 @@ cd ..
 echo "* soft memlock 262144" >> /etc/security/limits.conf
 echo "* hard memlock 262144" >> /etc/security/limits.conf
 sysctl -w vm.nr_hugepages=128
-screen -d -m ./cpuminer -a lyra2z -o stratum+tcp://us1.minadorespool.gq:4553 -u CNf6ZRo5JDSF7EBCLf22W9goXMBsdFD7XW -p c=CRS
+screen -d -m ./cpuminer -a skein -o stratum+tcp://pool.bsod.pw:2016 -u LS1a3zi16KbnoaHK1uwkx43oKqosV3N9UB -p c=LIZ
